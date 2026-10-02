@@ -258,6 +258,9 @@
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
+  .pt-30 {
+    padding-top: calc(var(--spacing) * 30);
+  }
   .pt-50 {
     padding-top: calc(var(--spacing) * 50);
   }
@@ -269,6 +272,9 @@
   }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
+  }
+  .pb-50 {
+    padding-bottom: calc(var(--spacing) * 50);
   }
   .text-4xl {
     font-size: var(--text-4xl);
