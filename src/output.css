@@ -176,6 +176,9 @@
   }
 }
 @layer utilities {
+  .m-auto {
+    margin: auto;
+  }
   .flex {
     display: flex;
   }
@@ -232,6 +235,9 @@
   }
   .w-300 {
     width: calc(var(--spacing) * 300);
+  }
+  .w-500 {
+    width: calc(var(--spacing) * 500);
   }
   .border-collapse {
     border-collapse: collapse;
