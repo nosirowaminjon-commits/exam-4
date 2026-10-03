@@ -275,6 +275,15 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
+  .gap-30 {
+    gap: calc(var(--spacing) * 30);
+  }
+  .gap-50 {
+    gap: calc(var(--spacing) * 50);
+  }
+  .gap-\[50px\] {
+    gap: 50px;
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
@@ -332,6 +341,12 @@
   .pt-1 {
     padding-top: var(--spacing);
   }
+  .pt-5 {
+    padding-top: calc(var(--spacing) * 5);
+  }
+  .pt-7 {
+    padding-top: calc(var(--spacing) * 7);
+  }
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
@@ -347,11 +362,23 @@
   .pt-\[50px\] {
     padding-top: 50px;
   }
+  .pr-5 {
+    padding-right: calc(var(--spacing) * 5);
+  }
+  .pr-15 {
+    padding-right: calc(var(--spacing) * 15);
+  }
   .pb-5 {
     padding-bottom: calc(var(--spacing) * 5);
   }
+  .pb-7 {
+    padding-bottom: calc(var(--spacing) * 7);
+  }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
+  }
+  .pb-20 {
+    padding-bottom: calc(var(--spacing) * 20);
   }
   .pb-30 {
     padding-bottom: calc(var(--spacing) * 30);
@@ -364,6 +391,12 @@
   }
   .pl-5 {
     padding-left: calc(var(--spacing) * 5);
+  }
+  .pl-10 {
+    padding-left: calc(var(--spacing) * 10);
+  }
+  .pl-15 {
+    padding-left: calc(var(--spacing) * 15);
   }
   .pl-20 {
     padding-left: calc(var(--spacing) * 20);
@@ -379,6 +412,9 @@
   }
   .text-center {
     text-align: center;
+  }
+  .text-start {
+    text-align: start;
   }
   .text-2xl {
     font-size: var(--text-2xl);
