@@ -269,11 +269,17 @@
   .justify-evenly {
     justify-content: space-evenly;
   }
+  .gap-1 {
+    gap: var(--spacing);
+  }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  .gap-20 {
+    gap: calc(var(--spacing) * 20);
   }
   .gap-30 {
     gap: calc(var(--spacing) * 30);
@@ -367,6 +373,9 @@
   }
   .pr-15 {
     padding-right: calc(var(--spacing) * 15);
+  }
+  .pr-20 {
+    padding-right: calc(var(--spacing) * 20);
   }
   .pb-5 {
     padding-bottom: calc(var(--spacing) * 5);
@@ -479,6 +488,12 @@
     --tw-shadow-color: #F2EAE8;
     @supports (color: color-mix(in lab, red, red)) {
       --tw-shadow-color: color-mix(in oklab, #F2EAE8 var(--tw-shadow-alpha), transparent);
+    }
+  }
+  .shadow-\[\#F2F2F2\] {
+    --tw-shadow-color: #F2F2F2;
+    @supports (color: color-mix(in lab, red, red)) {
+      --tw-shadow-color: color-mix(in oklab, #F2F2F2 var(--tw-shadow-alpha), transparent);
     }
   }
   .shadow-\[\#F4BFA7\] {
